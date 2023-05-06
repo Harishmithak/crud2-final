@@ -1,0 +1,20 @@
+body{
+    background: rgb(235, 189, 237);
+    background: linear-gradient(90deg, rgb(226, 175, 227) 0%, rgba(9,121,116,1) 52%, rgba(0,212,255,1) 100%);
+    }
+    .btn-secondary{
+background : rgb(19, 17, 19);
+    }
+    input[type=text]:focus {
+        width: 70%;
+      }
+      .btn-outline-secondary{
+        background: rgb(235, 229, 235) ;
+      }
+      .btn-outline-danger{
+        background: rgb(239, 234, 234) ;
+      }
+      .btn-primary{
+        background : rgb(19, 17, 19);
+    
+      }
