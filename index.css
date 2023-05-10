@@ -31,7 +31,7 @@ input[type=text]:focus {
 }
 
 .carousel-item {
-  height: 700px;
+  height: 500px;
   width: 500px;
   margin-left: 305px;
 }
@@ -43,10 +43,9 @@ input[type=text]:focus {
 }
 
 .card {
-  margin-top: -280px;
+  margin-top: 20px;
   background-color: rgb(141, 135, 146);
   box-shadow: 2px 13px 14px rgb(20, 17, 20);
-
 }
 
 nav div ul a {
