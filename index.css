@@ -1,20 +1,120 @@
-body{
-    background: rgb(235, 189, 237);
-    background: linear-gradient(90deg, rgb(226, 175, 227) 0%, rgba(9,121,116,1) 52%, rgba(0,212,255,1) 100%);
-    }
-    .btn-secondary{
-background : rgb(19, 17, 19);
-    }
-    input[type=text]:focus {
-        width: 70%;
-      }
-      .btn-outline-secondary{
-        background: rgb(235, 229, 235) ;
-      }
-      .btn-outline-danger{
-        background: rgb(239, 234, 234) ;
-      }
-      .btn-primary{
-        background : rgb(19, 17, 19);
-    
-      }
+body {
+
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.btn-secondary {
+  background: rgb(19, 17, 19);
+}
+
+input[type=text]:focus {
+  width: 70%;
+}
+
+.btn-outline-secondary {
+  background: rgb(235, 229, 235);
+}
+
+.btn-outline-danger {
+  background: rgb(239, 234, 234);
+}
+
+.btn-primary {
+  background: rgb(19, 17, 19);
+
+}
+
+.carousel-item {
+  height: 700px;
+  width: 500px;
+  margin-left: 305px;
+}
+
+.gif {
+  height: 200px;
+  width: 200px;
+  margin-left: 550px;
+}
+
+.card {
+  margin-top: -280px;
+  background-color: rgb(141, 135, 146);
+  box-shadow: 2px 13px 14px rgb(20, 17, 20);
+
+}
+
+nav div ul a {
+  text-decoration: none;
+  color: white;
+  padding: 3px 10px 3px;
+}
+
+a:hover {
+  color: black;
+}
+
+#Event {
+  color: white;
+}
+
+ #create {
+  background-color: rgb(180, 176, 176);
+  color: #000000;
+} 
+
+ #edit {
+  background-color: rgb(180, 176, 176);
+  color: #000000;
+}
+
+#del {
+  background-color: rgb(180, 176, 176);
+  color: #000000;
+}
+
+#del:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+#edit:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+} 
+
+ul {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+footer {
+  margin-top: 60px;
+  background-color: rgb(250, 239, 250);
+}

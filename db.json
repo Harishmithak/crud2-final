@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "ename": "anniversary",
-      "cname": "saran",
-      "session": "evening",
-      "venue": "peelamedu",
-      "date": "21-03-2022",
-      "avatar": "assets/images/2.png",
-      "id": 1
-    },
-    {
       "ename": "birthday",
       "cname": "harishmitha",
       "session": "AFTERNOON",
@@ -26,6 +17,33 @@
       "date": "12/08/2023",
       "avatar": "assets/images/2.png",
       "id": 3
+    },
+    {
+      "ename": "Birthday",
+      "cname": "harishmitha",
+      "session": "AFTERNOON",
+      "venue": "GANDHIPURAM",
+      "date": "12/08/2023",
+      "avatar": "assets/images/2.png",
+      "id": 4
+    },
+    {
+      "ename": "birthday",
+      "cname": "harishmitha",
+      "session": "AFTERNOON",
+      "venue": "GANDHIPURAM",
+      "date": "12/08/2023",
+      "avatar": "assets/images/2.png",
+      "id": 6
+    },
+    {
+      "ename": "birthday",
+      "cname": "harishmitha",
+      "session": "AFTERNOON",
+      "venue": "perur",
+      "date": "12/08/2023",
+      "avatar": "assets/images/2.png",
+      "id": 7
     }
   ]
 }

@@ -23,11 +23,11 @@ function loadTable() {
           trHTML += "<td>" + object["venue"] + "</td>";
           trHTML += "<td>" + object["date"] + "</td>";
           trHTML +=
-            '<td><button type="button" class="btn btn-outline-secondary" onclick="showUserEditBox(' +
+            '<td><button type="button" id="edit"  class="btn btn-outline-secondary" onclick="showUserEditBox(' +
             object["id"] +
             ')">Edit</button>';
           trHTML +=
-            '<button type="button" class="btn btn-outline-danger" onclick="userDelete(' +
+            '<button type="button" id="del" class="btn btn-outline-danger" onclick="userDelete(' +
             object["id"] +
             ')">Del</button></td>';
           trHTML += "</tr>";
@@ -122,7 +122,7 @@ function loadTable() {
       
         console.log(objects);
         Swal.fire({
-          title: "Edit User",
+          title: "Edit Event",
           html:
             '<input id="id" type="hidden" value="' +
             objects[`${id}`] +
@@ -179,7 +179,7 @@ function loadTable() {
     xhttp.onreadystatechange = function () {
       if (this.readyState == 4 && this.status == 200) {
         const objects = JSON.parse(this.responseText);
-        Swal.fire(objects["message"]);
+         Swal.fire(objects["message"]);
         loadTable();
       }
     };
@@ -199,7 +199,8 @@ function loadTable() {
     xhttp.onreadystatechange = function () {
       if (this.readyState == 4) {
         const objects = JSON.parse(this.responseText);
-      
+        
+        
         Swal.fire({
           title: 'Are you sure?',
           text: "You won't be able to revert this!",
@@ -208,7 +209,7 @@ function loadTable() {
           confirmButtonColor: '#3085d6',
           cancelButtonColor: '#d33',
           confirmButtonText: 'Yes, delete it!',
-          timer: 5000 // 5 seconds
+          timer: 5000 //5 seconds
       }).then((result) => {
           if (result.value) {
               objects["message"];
